@@ -1,0 +1,16 @@
+a = int (input('Digite o 1 número: '))
+b = int (input('Digite o 2 número: '))
+c = int (input('Digite o 3 número: '))
+d = int (input('Digite o 4 número: '))
+e = int (input('Digite o 5 número: '))
+
+if (a > b and a > c and a > d and a > e):
+    print(f'O maior número é {a}')
+elif (b > a and b > c and b > d and b > e):
+    print(f'O maior número é {b}')
+elif (c > a and c > b and c > d and c > e):
+    print(f'O maior número é {c}')
+elif (d > a and d > c and d > c and d > e):
+    print(f'O maior número é {d}')
+else:
+    print(f'O maior número é {e}')
