@@ -1,0 +1,10 @@
+x = int (input('Digite o primeiro número '))
+y = int (input('Digite o segundo número '))
+defe = abs(x - y)
+
+if (x > y):
+    print(f'o número {x} é maior que o número {y} em {defe} unidades')
+elif (x < y):
+    print(f'o número {y} é maior que o número {x} em {defe} unidades')
+else: 
+    print(f'{x} e {y} são iguais')
