@@ -1,0 +1,8 @@
+x = float (input('Digite a nota 1 '))
+y = float (input('Digite a nota 2 '))
+nota = (x + y)/2
+
+if (nota >= 7):
+    print('Aluno passou')
+else :
+    print('Aluno reprovou')
