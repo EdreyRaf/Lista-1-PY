@@ -1,0 +1,5 @@
+x = int(input('digite um número: '))
+if(x % 2 == 0): 
+    print(f'valor é par')
+else:
+    print(f'valor não é par')
