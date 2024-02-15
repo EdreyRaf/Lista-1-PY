@@ -1,5 +1,11 @@
+def par(x):
+    if x % 2 == 0:
+        return True
+    else:
+        return False
+
 x = int(input('digite um número: '))
-if(x % 2 == 0): 
+if par(x): 
     print(f'valor é par')
 else:
     print(f'valor não é par')
